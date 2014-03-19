@@ -1,4 +1,4 @@
-package com.example.jpg_test;
+package com.axlecho.gccamera;
 
 public class Tool {
 	public static int byteArray2int(byte[] b) {

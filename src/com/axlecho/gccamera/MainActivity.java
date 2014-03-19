@@ -1,10 +1,12 @@
-package com.example.jpg_test;
+package com.axlecho.gccamera;
 
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.DatagramSocket;
 import java.net.Socket;
 import java.net.UnknownHostException;
+
+import com.example.jpg_test.R;
 
 import android.app.Activity;
 import android.graphics.Bitmap;
@@ -38,7 +40,7 @@ public class MainActivity extends Activity {
 		getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
 		setContentView(R.layout.activity_main);
 		iv = (ImageView) findViewById(R.id.camera);
-		
+
 		try {
 			(new Data()).get_dp_a0();
 		} catch (UnknownHostException e) {

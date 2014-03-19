@@ -1,4 +1,4 @@
-package com.example.jpg_test;
+package com.axlecho.gccamera;
 
 import java.net.DatagramPacket;
 import java.net.InetAddress;
